@@ -1,0 +1,60 @@
+/*Universal Styles*/
+* {
+    margin: 2px;
+    padding: 2px;
+}
+
+body{
+     font-family: Arial, sans-serif;
+     font-size: 16px;
+     line-height: 1.5;
+     color: black;
+     background-color: lightgray;
+}
+
+main{
+    padding: 16px 24px;
+}
+
+/*Header Styles and Navigation*/
+
+header {
+    background-color: #f2f2f2;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 40px;
+    margin-right: 16px;
+}
+
+header h1 {
+  display: inline-block;
+  vertical-align: middle;
+  letter-spacing: 2px;
+  margin-left: 10px;
+  color: red;
+  font-size: 25px;
+  }
+
+  nav{    
+    display: inline;
+    margin-left: 32px;
+    color: #cccccc;
+  }
+
+  nav a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 8px;
+    color: red;
+    margin-right: 8px;
+  }
+
+  nav a:hover {
+    background-color: yellow;
+    color: green;    
+  }
