@@ -59,14 +59,94 @@ header h1 {
     color: green;    
   }
 
-  /*Links*/
-  a:link{
+  /* Headings and text basics */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  p{
+    margin-bottom: 8px;
+  }
+
+  ul,ol {
+    margin-left: 34px;
+  }
+
+  /* Video and Thumbnail Styles */
+  .video-card{
+    margin-bottom: 24px;
+  }
+
+  .video-card img {
+    cursor: pointer;
+  }
+
+  .video-card .channel {
+    color: red;
+    font-weight: bold;
+    padding-right: 8px;
+  }
+
+  .video-card .views {
     color: blue;
   }
-  /*a:visited{
-    color: grey;
-  }*/
- 
-  a:hover{
-    color: green;
+
+  .video-card h3 a:hover {
+    text-decoration: underline;
+  }
+
+  .video-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #606060;
+  }
+
+  .video-card .views::before {
+    content:"\25B6  ";
+    font-size: 12px;
+  }
+
+  ul.categories {
+    list-style-type: none;
+    margin-left: 0;
+  }
+
+  ul.categories li {
+    display: inline-block;
+    margin-right: 12px;
+    padding: 6px 12px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  ul.categories li:hover {
+    background-color: #e0e0e0;
+    color:#ffffff
+  }
+
+  .channel-info h2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .subscribers, .video-count {
+    font-size: 14px;
+    color: #3a1e1e;
+  }
+
+  .subscribe-btn {
+    display: inline-block;
+    margin-left: 16px;
+    padding: 6px 12px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
   }
