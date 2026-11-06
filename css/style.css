@@ -172,3 +172,37 @@ header h1 {
     body{
       padding-top: 56px; /* Add padding to avoid content being hidden behind the fixed header */
     }
+
+    [id]{
+      scroll-margin-top: 70px; /* Add scroll margin to avoid content being hidden behind the fixed header when using anchor links */
+    }
+
+
+/* ---------- 16. Sidebar (home page) ---------- */
+.sidebar {
+  position: fixed;
+  top: 56px;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  padding: 12px;
+  background-color: #c15151;
+  border-right: 1px solid #1f0a5e;
+}
+
+.sidebar a {
+  display: block;                 /* full-width clickable rows */
+  padding: 10px 12px;
+  color: #eae1e1;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color: #3516cf;
+}
+
+body.home main,
+body.home footer {
+  margin-left: 200px;             /* make room for the sidebar */
+}
