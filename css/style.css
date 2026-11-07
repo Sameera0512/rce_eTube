@@ -206,3 +206,32 @@ body.home main,
 body.home footer {
   margin-left: 200px;             /* make room for the sidebar */
 }
+
+body.dark {
+  color: #f2f2f2;
+  background-color: #181818;
+}
+
+body.dark header,
+body.dark ul.categories li {
+  background-color: #282828;
+}
+
+body.dark nav,
+body.dark nav a,
+body.dark a,
+body.dark .video-card p,
+body.dark .subscribers,
+body.dark .video-count {
+  color: #e0e0e0;
+}
+
+body.dark .sidebar {
+  background-color: #202020;
+  border-right-color: #444;
+}
+
+body.dark ul.categories li:hover {
+  background-color: #444;
+  color: #fff;
+}
