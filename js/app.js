@@ -39,6 +39,7 @@ function toggleSubscribe() {
         btn.style.backgroundColor = "green";
         btn.classList.add("subscribed");
     }
+    
     else{
         let sure=confirm("Are you sure you want to unsubscribe?");
         if (sure) {
